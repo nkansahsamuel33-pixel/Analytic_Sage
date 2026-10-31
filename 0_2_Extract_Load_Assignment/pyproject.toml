@@ -1,0 +1,11 @@
+[project]
+name = "0-2-extract-load-assignment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "psycopg[binary]>=3.3.6",
+    "python-dotenv>=1.2.4",
+    "web3>=8.0.0",
+]
